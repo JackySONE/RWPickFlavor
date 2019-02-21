@@ -38,9 +38,9 @@ s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 s.swift_version = "4.2"
 
 # 11
-s.test_spec 'RWPickFlavorTests' do |test_spec|
-  test_spec.requires_app_host = true
-  test_spec.source_files = 'RWPickFlavorTests/*.{swift}'
-end
+# s.test_spec 'RWPickFlavorTests' do |test_spec|
+#   test_spec.requires_app_host = true
+#   test_spec.source_files = 'RWPickFlavorTests/*.{swift}'
+# end
 
 end
