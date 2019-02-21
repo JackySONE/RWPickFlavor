@@ -8,7 +8,7 @@ s.summary = "RWPickFlavor lets a user select an ice cream flavor."
 s.requires_arc = true
 
 # 2
-s.version = "0.1.0"
+s.version = "0.1.1"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -36,5 +36,10 @@ s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "4.2"
+
+# 11
+s.test_spec 'RWPickFlavorTests' do |test_spec|
+  test_spec.source_files = 'RWPickFlavorTests/*.{swift}'
+end
 
 end
