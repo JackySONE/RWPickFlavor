@@ -39,6 +39,7 @@ s.swift_version = "4.2"
 
 # 11
 s.test_spec 'RWPickFlavorTests' do |test_spec|
+  test_spec.requires_app_host = true
   test_spec.source_files = 'RWPickFlavorTests/*.{swift}'
 end
 
